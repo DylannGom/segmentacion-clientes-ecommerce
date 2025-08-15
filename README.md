@@ -144,5 +144,5 @@ source venv/bin/activate  # En Windows usar venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Ejecutar Jupyter Notebook
-jupyter notebook notebooks/analisis_rfm_kmeans.ipynb
+jupyter notebook notebooks/analisis-de-ventas-ecommerce-segmentacion.ipynb
 ```

@@ -1,5 +1,9 @@
 # 📊 Segmentación de Clientes E-Commerce con RFM y Clustering
 
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
+
 ## 📌 Descripción
 
 Este proyecto analiza datos de ventas de un e-commerce y aplica técnicas de segmentación de clientes utilizando el modelo **RFM (Recency, Frequency, Monetary)** junto con **K-Means Clustering**.  
@@ -123,13 +127,13 @@ Algunas de las gráficas generadas:
 
 - **Cluster 1 (Naranja)** — Clientes VIP:
 
-  - Representan el **38.8%** de los clientes.
+  - Representan el **38.5%** de los clientes.
   - Generan el **80%** de las ventas.
   - Realizan el **75%** de las compras.
   - **Recomendación:** Estrategias de retención, descuentos exclusivos, programas de fidelización.
 
 - **Cluster 0 (Azul)** — Clientes Habituales / Exclientes:
-  - Representan el **38%** de los clientes.
+  - Representan el **61.19%** de los clientes.
   - Aportan el **19.5%** de las ventas.
   - **Recomendación:** No aumentar inversión, pero considerar campañas de reactivación.
 
@@ -171,6 +175,8 @@ jupyter notebook notebooks/analisis-de-ventas-ecommerce-segmentacion.ipynb
 ## 📄 Licencia
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+Copyright (c) 2025 Dylan Saavedra
 
 ## Contacto
 

@@ -47,6 +47,11 @@ Este análisis se enfoca únicamente en ventas (excluyendo devoluciones y cancel
 Contiene todas las transacciones realizadas entre el 01/12/2010 y el 09/12/2011 por un minorista en línea no comercial registrado, con sede en el Reino Unido.  
 La empresa vende principalmente regalos únicos para diversas ocasiones y muchos de sus clientes son mayoristas.
 
+**Fuente**: [Online Retail Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) por Ulrik Thyge Pedersen, basado en datos de [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Online+Retail).
+
+**Licencia**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+Se permite el uso, distribución y modificación con atribución a los autores originales.
+
 ---
 
 ## 🛠️ Metodología
@@ -165,10 +170,7 @@ jupyter notebook notebooks/analisis-de-ventas-ecommerce-segmentacion.ipynb
 
 ## 📄 Licencia
 
-**Fuente**: [Online Retail Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) por Ulrik Thyge Pedersen, basado en datos de [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Online+Retail).
-
-**Licencia**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
-Se permite el uso, distribución y modificación con atribución a los autores originales.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contacto
 

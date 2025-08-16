@@ -125,7 +125,7 @@ _(Puedes incluir aquí imágenes usando `![texto](ruta)` si están en el repo)_
 
 | Distribución RFM                               | Frecuencia vs monetary                      | Clusters K-Means                   |
 | ---------------------------------------------- | ------------------------------------------- | ---------------------------------- |
-| ![Distribución](imagenes/distribucion_rfm.png) | ![Vs](imagenes/frecuencia_vs_monetario.png) | ![Clusters](imagenes/clusters.png) |
+| ![Distribución](Imagenes/distribucion_rfm.png) | ![Vs](Imagenes/frecuencia_vs_monetario.png) | ![Clusters](Imagenes/clusters.png) |
 
 ---
 

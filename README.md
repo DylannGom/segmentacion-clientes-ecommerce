@@ -15,9 +15,11 @@ El objetivo es identificar grupos de clientes con comportamientos de compra simi
 4. [Resultados](#resultados)
 5. [Visualizaciones](#visualizaciones)
 6. [Tecnologías Usadas](#tecnologías-usadas)
-7. [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
-8. [Licencia](#licencia)
-9. [Contacto](#contacto)
+7. [Resultados de análisis](#resultados-de-analisis)
+8. [Ejemplo Visualizaciones](#ejemplo-visualizaciones)
+9. [Cómo Ejecutar el Proyecto](#instalacion-y-Uso)
+10. [Licencia](#licencia)
+11. [Contacto](#contacto)
 
 ---
 
@@ -44,11 +46,6 @@ Este análisis se enfoca únicamente en ventas (excluyendo devoluciones y cancel
 
 Contiene todas las transacciones realizadas entre el 01/12/2010 y el 09/12/2011 por un minorista en línea no comercial registrado, con sede en el Reino Unido.  
 La empresa vende principalmente regalos únicos para diversas ocasiones y muchos de sus clientes son mayoristas.
-
-**Fuente**: [Online Retail Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) por Ulrik Thyge Pedersen, basado en datos de [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Online+Retail).
-
-**Licencia**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
-Se permite el uso, distribución y modificación con atribución a los autores originales.
 
 ---
 
@@ -101,8 +98,6 @@ Algunas de las gráficas generadas:
 - **Histplot de distribución de clientes**
 - **Curvas SSE y Silhouette para selección de k**
 
-_(Puedes incluir aquí imágenes usando `![texto](ruta)` si están en el repo)_
-
 ---
 
 ## 💻 Tecnologías Usadas
@@ -135,7 +130,7 @@ _(Puedes incluir aquí imágenes usando `![texto](ruta)` si están en el repo)_
 
 ---
 
-## 📷 Ejemplos de Visualizaciones
+## 📷 Ejemplo Visualizaciones
 
 | Distribución RFM                               | Frecuencia vs monetary                      | Clusters K-Means                   |
 | ---------------------------------------------- | ------------------------------------------- | ---------------------------------- |
@@ -165,3 +160,18 @@ pip install -r requirements.txt
 # 4. Ejecutar Jupyter Notebook
 jupyter notebook notebooks/analisis-de-ventas-ecommerce-segmentacion.ipynb
 ```
+
+---
+
+## 📄 Licencia
+
+**Fuente**: [Online Retail Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) por Ulrik Thyge Pedersen, basado en datos de [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Online+Retail).
+
+**Licencia**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+Se permite el uso, distribución y modificación con atribución a los autores originales.
+
+## Contacto
+
+Dylan Saavedra
+Ingeniero Electrónico
+dylan.saavedrago@gmail.com

@@ -10,11 +10,11 @@ El objetivo es identificar grupos de clientes con comportamientos de compra simi
 ## 📂 Tabla de Contenidos
 
 1. [Acerca del Proyecto](#acerca-del-proyecto)
-2. [Metodología](#metodología)
-3. [Resultados](#resultados)
-4. [Visualizaciones](#visualizaciones)
-5. [Tecnologías Usadas](#tecnologías-usadas)
-6. [Estructura del Repositorio](#estructura-del-repositorio)
+2. [DataSet](#dataSet)
+3. [Metodología](#metodología)
+4. [Resultados](#resultados)
+5. [Visualizaciones](#visualizaciones)
+6. [Tecnologías Usadas](#tecnologías-usadas)
 7. [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
 8. [Licencia](#licencia)
 9. [Contacto](#contacto)
@@ -31,6 +31,24 @@ Mediante **RFM Analysis** se calcula:
 - **Valor Monetario (monetary)**: Total gastado por cliente.
 
 Posteriormente, se aplica **K-Means Clustering** para segmentar a los clientes y extraer insights accionables.
+
+Este análisis se enfoca únicamente en ventas (excluyendo devoluciones y cancelaciones) y tiene tres subenfoques:
+
+1. Análisis centrado en el cliente.
+2. Análisis centrado en el tiempo.(Sección en desarrollo, se implementara en la proxima version)
+3. Análisis centrado en la geografía.(Sección en desarrollo, se implementara en la proxima version)
+
+---
+
+## 📁 DataSet
+
+Contiene todas las transacciones realizadas entre el 01/12/2010 y el 09/12/2011 por un minorista en línea no comercial registrado, con sede en el Reino Unido.  
+La empresa vende principalmente regalos únicos para diversas ocasiones y muchos de sus clientes son mayoristas.
+
+**Fuente**: [Online Retail Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) por Ulrik Thyge Pedersen, basado en datos de [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Online+Retail).
+
+**Licencia**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+Se permite el uso, distribución y modificación con atribución a los autores originales.
 
 ---
 
@@ -99,10 +117,6 @@ _(Puedes incluir aquí imágenes usando `![texto](ruta)` si están en el repo)_
 
 ---
 
-## 📁 Estructura del Repositorio
-
----
-
 ## 📊 Resultados del Análisis
 
 ### Segmentos Encontrados:
@@ -132,6 +146,11 @@ _(Puedes incluir aquí imágenes usando `![texto](ruta)` si están en el repo)_
 ## ⚙️ Instalación y Uso
 
 ```bash
+
+# 0. Prerrequisitos
+# python 3.9+
+pip install pandas numpy matplotlib seaborn scikit-learn
+
 # 1. Clonar repositorio
 git clone https://github.com/TU_USUARIO/ecommerce-rfm-segmentation.git
 cd ecommerce-rfm-segmentation

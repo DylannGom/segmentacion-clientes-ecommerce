@@ -123,9 +123,9 @@ _(Puedes incluir aquí imágenes usando `![texto](ruta)` si están en el repo)_
 
 ## 📷 Ejemplos de Visualizaciones
 
-| Distribución RFM                             | Clusters K-Means                 |
-| -------------------------------------------- | -------------------------------- |
-| ![Distribución](images/distribucion_rfm.png) | ![Clusters](images/clusters.png) |
+| Distribución RFM                               | Frecuencia vs monetary                      | Clusters K-Means                   |
+| ---------------------------------------------- | ------------------------------------------- | ---------------------------------- |
+| ![Distribución](imagenes/distribucion_rfm.png) | ![Vs](imagenes/frecuencia_vs_monetario.png) | ![Clusters](imagenes/clusters.png) |
 
 ---
 
